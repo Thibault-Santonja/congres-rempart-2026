@@ -1752,18 +1752,17 @@
                         slide.style.top = "";
                         return;
                     }
-                    // Always fill the viewport width; allow vertical overflow
-                    // if the window is shorter than the natural slide height.
-                    const scale = window.innerWidth / 1920;
-                    const offsetY = Math.max(
-                        0,
-                        (window.innerHeight - 1080 * scale) / 2,
-                    );
+                    // Fill the viewport entirely (100vw x 100vh) with independent
+                    // X/Y scaling. Slight horizontal/vertical stretching is
+                    // acceptable for a planning gantt and avoids letterboxing.
+                    const scaleX = window.innerWidth / 1920;
+                    const scaleY = window.innerHeight / 1080;
                     slide.style.transformOrigin = "top left";
-                    slide.style.transform = "scale(" + scale + ")";
+                    slide.style.transform =
+                        "scale(" + scaleX + ", " + scaleY + ")";
                     slide.style.position = "absolute";
                     slide.style.left = "0px";
-                    slide.style.top = offsetY + "px";
+                    slide.style.top = "0px";
                 }
 
                 scaleSlide();
