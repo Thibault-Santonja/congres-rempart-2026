@@ -1,0 +1,25 @@
+# Fichiers source Adobe (lourds, non nécessaires au déploiement)
+*.ai
+*.psd
+*.indd
+*.sketch
+*.fig
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs / temp
+*.log
+*.tmp
+.cache/
+node_modules/
+
+# Build / artefacts
+dist/
+build/
+
+# PDF généré par CI (ne pas commit manuellement, le workflow s'en occupe)
+# (commenté car le PDF est commité par le workflow lui-même)

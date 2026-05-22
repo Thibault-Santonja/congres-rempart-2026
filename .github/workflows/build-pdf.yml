@@ -1,0 +1,48 @@
+name: Generate Planning PDF
+
+on:
+  push:
+    branches: [main]
+    paths: [planning.html]
+
+jobs:
+  build-pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install puppeteer
+        run: npm install puppeteer
+
+      - name: Generate PDF
+        run: |
+          node -e "
+          const puppeteer = require('puppeteer');
+          const path = require('path');
+          (async () => {
+            const browser = await puppeteer.launch({ args: ['--no-sandbox', '--disable-setuid-sandbox'] });
+            const page = await browser.newPage();
+            await page.goto('file://' + path.resolve('planning.html'), { waitUntil: 'networkidle0' });
+            await page.emulateMediaType('screen');
+            await page.pdf({
+              path: 'planning.pdf',
+              format: 'A4',
+              landscape: true,
+              printBackground: true,
+              margin: { top: '8mm', bottom: '8mm', left: '8mm', right: '8mm' }
+            });
+            await browser.close();
+          })().catch(err => { console.error(err); process.exit(1); });
+          "
+
+      - name: Commit PDF
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add planning.pdf
+          git diff --staged --quiet || git commit -m "ci: update planning.pdf [skip ci]"
+          git push

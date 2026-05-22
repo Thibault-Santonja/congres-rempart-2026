@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /planning.html
+
+Sitemap: https://thibault-santonja.github.io/congres-rempart-2026/sitemap.xml
