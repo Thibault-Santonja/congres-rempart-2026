@@ -4,6 +4,10 @@ on:
   push:
     branches: [main]
     paths: [planning.html]
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build-pdf:
