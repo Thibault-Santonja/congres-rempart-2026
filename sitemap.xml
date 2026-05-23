@@ -19,6 +19,12 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://thibault-santonja.github.io/congres-rempart-2026/ag.html</loc>
+        <lastmod>2026-05-23</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://thibault-santonja.github.io/congres-rempart-2026/map.html</loc>
         <lastmod>2026-05-22</lastmod>
         <changefreq>monthly</changefreq>
