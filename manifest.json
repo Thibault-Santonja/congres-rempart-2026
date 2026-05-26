@@ -1,5 +1,5 @@
 {
-    "name": "Congrès REMPART 2026 - 60ᵉ Anniversaire",
+    "name": "Congrès REMPART 2026, 60ᵉ Anniversaire",
     "short_name": "REMPART 2026",
     "description": "Site officiel du Congrès REMPART 60ᵉ Anniversaire à Coucy-le-Château-Auffrique, 23-25 mai 2026, organisé par l'AMVCC.",
     "lang": "fr-FR",
@@ -9,11 +9,8 @@
     "background_color": "#faf5ee",
     "theme_color": "#8b2a1a",
     "icons": [
-        {
-            "src": "logo.png",
-            "sizes": "192x192 512x512",
-            "type": "image/png",
-            "purpose": "any maskable"
-        }
+        { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+        { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+        { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
     ]
 }

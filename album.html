@@ -55,11 +55,11 @@
         />
         <meta
             property="og:image"
-            content="https://thibault-santonja.github.io/congres-rempart-2026/assets/photos/2024-07-28_Coucy_1561_080834.webp"
+            content="https://thibault-santonja.github.io/congres-rempart-2026/assets/photos/2024-07-28_remparts-coucy-coucher-soleil.webp"
         />
         <meta
             property="og:image:alt"
-            content="Le château de Coucy au lever du jour"
+            content="Remparts du château de Coucy au coucher du soleil"
         />
         <meta property="og:locale" content="fr_FR" />
 
@@ -74,10 +74,15 @@
         />
         <meta
             name="twitter:image"
-            content="https://thibault-santonja.github.io/congres-rempart-2026/assets/photos/2024-07-28_Coucy_1561_080834.webp"
+            content="https://thibault-santonja.github.io/congres-rempart-2026/assets/photos/2024-07-28_remparts-coucy-coucher-soleil.webp"
         />
 
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
         <link rel="icon" href="logo.png" type="image/png" />
         <link
             rel="license"
@@ -658,89 +663,53 @@
         <script>
             (function () {
                 var PHOTOS = [
-                    "2023-10-21-22_Seigneurie_4073_164802",
-                    "2023-10-30_Chantier_AMVCC_4637_121657",
-                    "2023-10-30_Chantier_AMVCC_4665_122753",
-                    "2023-10-30_Chantier_AMVCC_4828_144113",
-                    "2023-10-30_Chantier_AMVCC__155546",
-                    "2023-11-18-19_Fous_d_histoire_7630_122725",
-                    "2023-11-18-19_Fous_d_histoire_7931_161307",
-                    "2023-11-18-19_Fous_d_histoire_7934_161452",
-                    "2023-11-18-19_Fous_d_histoire_8040_165209",
-                    "2023-11-18-19_Fous_d_histoire_8064_171311",
-                    "2023-12-17_Seigneurie_231217_120043",
-                    "2024-04-20_Marche_de_l_histoire_3189_180921",
-                    "2024-04-26_Chantiers_Stage_3886_165455",
-                    "2024-04-26_Chantiers_Stage_4030_173333",
-                    "2024-05-03-05_Seigneuriales_8098_213600",
-                    "2024-07-28_Coucy_1561_080834",
-                    "2024-07-28_Coucy_1575_082222",
-                    "2024-07-28_Coucy__222050",
-                    "2025-07-21_Quinzaine_Chantier_3058_250801163124",
-                    "2025-07-21_Quinzaine_Chantier_3119_250801164350",
-                    "2025-07-21_Quinzaine_Chantier_3183_250801180805",
-                    "2025-07-21_Quinzaine_Chantier_3398_250802025607",
-                    "2025-07-21_Quinzaine_Chantier_9810_250723120128",
-                    "2025-07-21_Quinzaine_Chantier_9882_250724160727",
-                    "2025-08-24_Chantiers_7171_250825111900",
-                    "2025-08-24_Chantiers_7376_250825231303",
-                    "2025-08-24_Chantiers_7488_250826112353",
-                    "2025-08-24_Chantiers_7578_250826113916",
-                    "2025-08-24_Chantiers__250824203710",
-                    "2025-08-24_Chantiers__250826113657",
+                    { name: "2023-10-21_atelier-couture-medieval-seigneurie-coucy", caption: "Atelier de couture mi-XIVᵉ, Seigneurie de Coucy · 21 octobre 2023" },
+                    { name: "2023-10-30_fouilles-archeologiques-chateau-coucy", caption: "Fouilles archéologiques au château de Coucy · AMVCC REMPART · 30 octobre 2023" },
+                    { name: "2023-10-30_paillage-cuisines-enguerrand-vii-coucy", caption: "Paillage des cuisines d'Enguerrand VII au château de Coucy · 30 octobre 2023" },
+                    { name: "2023-10-30_chantier-rempart-amvcc-partage", caption: "Partage et entraide, chantier REMPART à l'AMVCC · 30 octobre 2023" },
+                    { name: "2023-10-30_cuisines-enguerrand-vii-haute-cour-coucy", caption: "Cuisines d'Enguerrand VII et haute cour en fond · AMVCC REMPART · 30 octobre 2023" },
+                    { name: "2023-11-18_restauration-fenetre-palais-justice-porte-laon", caption: "Restauration d'une fenêtre du palais de justice, porte de Laon · AMVCC REMPART · 18 novembre 2023" },
+                    { name: "2023-11-18_poterie-medievale-verre-anthropomorphe", caption: "Poterie médiévale, verre anthropomorphe mi-XIVᵉ (Poterie des Grands Bois, Véronique Durey) · 18 novembre 2023" },
+                    { name: "2023-11-18_poterie-medievale-coquemar", caption: "Poterie médiévale, coquemar mi-XIVᵉ (Poterie des Grands Bois, Véronique Durey) · 18 novembre 2023" },
+                    { name: "2023-11-18_chapeau-paille-medieval-reconstitution", caption: "Reconstitution d'un chapeau de paille médiéval, Seigneurie de Coucy · 18 novembre 2023" },
+                    { name: "2023-11-18_vetement-medieval-xive-reconstitution", caption: "Reconstitution du vêtement du XIVᵉ siècle, Seigneurie de Coucy · 18 novembre 2023" },
+                    { name: "2023-12-17_panorama-coucy-chateau-abbaye-nogent", caption: "Panorama sur Coucy depuis l'abbaye de Nogent-sous-Coucy · 17 décembre 2023" },
+                    { name: "2024-04-20_teinture-medievale-seigneurie-coucy", caption: "Teinture médiévale au château de Coucy, Seigneurie de Coucy · 20 avril 2024" },
+                    { name: "2024-04-26_stage-maconnerie-chateau-coucy-rempart", caption: "Stage de maçonnerie au château de Coucy · AMVCC REMPART · 26 avril 2024" },
+                    { name: "2024-04-26_stage-forge-chateau-coucy-rempart", caption: "Stage de forge au château de Coucy · AMVCC REMPART · 26 avril 2024" },
+                    { name: "2024-05-03_forge-tour-hermite-chateau-coucy", caption: "Forge face à la tour l'Hermite, château de Coucy · AMVCC REMPART · 3 mai 2024" },
+                    { name: "2024-07-28_chevres-chateau-coucy", caption: "Les chèvres du château de Coucy · 28 juillet 2024" },
+                    { name: "2024-07-28_taille-pierre-patte-oie-porte-laon", caption: "Taille de pierre, patte d'oie pour la porte de Laon · AMVCC REMPART · 28 juillet 2024" },
+                    { name: "2024-07-28_remparts-coucy-coucher-soleil", caption: "Remparts de Coucy au coucher du soleil · 28 juillet 2024" },
+                    { name: "2025-07-21_taille-pierre-stage-avance-chateau-coucy", caption: "Taille de pierre, stage avancé au château de Coucy · AMVCC REMPART · 21 juillet 2025" },
+                    { name: "2025-07-21_porte-laon-interieur-tour-ouest", caption: "Porte de Laon vue depuis l'intérieur de la tour ouest, château de Coucy · 21 juillet 2025" },
+                    { name: "2025-07-21_haute-cour-chateau-coucy", caption: "Haute cour du château de Coucy · 21 juillet 2025" },
+                    { name: "2025-07-21_eglise-saint-sauveur-coucy-nocturne", caption: "Église Saint-Sauveur de Coucy en ciel nocturne (astrophotographie) · 21 juillet 2025" },
+                    { name: "2025-07-21_menuiserie-chateau-coucy-rempart", caption: "Atelier menuiserie au château de Coucy · AMVCC REMPART · 21 juillet 2025" },
+                    { name: "2025-07-21_archeologie-bati-tour-chateau-coucy", caption: "Archéologie du bâti d'une tour du château de Coucy · AMVCC REMPART · 21 juillet 2025" },
+                    { name: "2025-08-24_clef-voute-eglise-saint-sauveur-coucy", caption: "Clef de voûte de l'église Saint-Sauveur de Coucy · 24 août 2025" },
+                    { name: "2025-08-24_tour-angle-chateau-coucy-nocturne", caption: "Tour d'angle du château de Coucy en ciel nocturne (astrophotographie) · 24 août 2025" },
+                    { name: "2025-08-24_maison-accueil-charpente-amvcc", caption: "Future maison d'accueil, atelier de charpente · AMVCC REMPART · 24 août 2025" },
+                    { name: "2025-08-24_porte-laon-interieur-ville-fortifiee", caption: "Porte de Laon vue depuis l'intérieur de la ville fortifiée de Coucy · 24 août 2025" },
+                    { name: "2025-08-24_coucher-soleil-haute-cour-coucy", caption: "Coucher de soleil sur la haute cour du château de Coucy · 24 août 2025" },
+                    { name: "2025-08-24_porte-laon-exterieur-panorama-taille-pierre", caption: "Porte de Laon vue de l'extérieur, atelier de taille de pierre AMVCC REMPART et future maison d'accueil, panorama · 24 août 2025" },
                 ];
-
-                var MONTHS = [
-                    "janvier",
-                    "février",
-                    "mars",
-                    "avril",
-                    "mai",
-                    "juin",
-                    "juillet",
-                    "août",
-                    "septembre",
-                    "octobre",
-                    "novembre",
-                    "décembre",
-                ];
-
-                function captionFor(name) {
-                    // e.g. "2023-10-21-22_Seigneurie_4073_164802"
-                    var dateMatch = name.match(
-                        /^(\d{4})-(\d{2})(?:-(\d{2}))?(?:-(\d{2}))?/,
-                    );
-                    var rest = name.replace(/^[\d-]+_/, "");
-                    var label = rest
-                        .replace(/_+/g, " ")
-                        .replace(/\s+\d+\s*$/, "")
-                        .replace(/\s+\d+\s+\d+$/, "")
-                        .trim();
-                    label = label.replace(/^./, function (c) {
-                        return c.toUpperCase();
-                    });
-                    if (!dateMatch) return label || "Photo du congrès REMPART";
-                    var year = dateMatch[1];
-                    var month = MONTHS[parseInt(dateMatch[2], 10) - 1];
-                    var dayRange =
-                        dateMatch[3] && dateMatch[4]
-                            ? dateMatch[3] + "-" + dateMatch[4]
-                            : dateMatch[3] || "";
-                    var dateStr = dayRange
-                        ? dayRange + " " + month + " " + year
-                        : month + " " + year;
-                    return label + " · " + dateStr;
-                }
 
                 var grid = document.getElementById("album-grid");
-                var captions = PHOTOS.map(captionFor);
+                var captions = PHOTOS.map(function (p) { return p.caption; });
 
-                PHOTOS.forEach(function (name, i) {
+                PHOTOS.forEach(function (photo, i) {
+                    var name = photo.name;
                     var li = document.createElement("li");
                     var btn = document.createElement("button");
                     btn.type = "button";
                     btn.setAttribute("aria-label", "Agrandir : " + captions[i]);
                     btn.dataset.index = i;
+                    var picture = document.createElement("picture");
+                    var sourceAvif = document.createElement("source");
+                    sourceAvif.srcset = "assets/photos/" + name + ".avif";
+                    sourceAvif.type = "image/avif";
+                    picture.appendChild(sourceAvif);
                     var img = document.createElement("img");
                     img.src = "assets/photos/" + name + ".webp";
                     img.alt = captions[i];
@@ -749,11 +718,14 @@
                         " © Thibault Santonja · thibaultsan.com. Reproduction interdite";
                     img.loading = "lazy";
                     img.decoding = "async";
+                    img.width = 800;
+                    img.height = 600;
                     img.setAttribute(
                         "data-credit",
                         "© Thibault Santonja, thibaultsan.com",
                     );
-                    btn.appendChild(img);
+                    picture.appendChild(img);
+                    btn.appendChild(picture);
                     li.appendChild(btn);
                     grid.appendChild(li);
                 });
@@ -766,7 +738,7 @@
 
                 function open(i) {
                     current = i;
-                    lbImg.src = "assets/photos/" + PHOTOS[i] + ".webp";
+                    lbImg.src = "assets/photos/" + PHOTOS[i].name + ".webp";
                     lbImg.alt = captions[i];
                     lbCap.textContent = captions[i];
                     lb.hidden = false;

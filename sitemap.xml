@@ -9,8 +9,8 @@
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         <image:image>
-            <image:loc>https://thibault-santonja.github.io/congres-rempart-2026/assets/photos/2024-07-28_Coucy_1561_080834.webp</image:loc>
-            <image:title>Le château de Coucy au lever du jour</image:title>
+            <image:loc>https://thibault-santonja.github.io/congres-rempart-2026/assets/photos/2024-07-28_remparts-coucy-coucher-soleil.webp</image:loc>
+            <image:title>Remparts du château de Coucy au coucher du soleil</image:title>
             <image:caption>Congrès REMPART 2026, 60ᵉ Anniversaire à Coucy-le-Château-Auffrique</image:caption>
         </image:image>
     </url>
@@ -56,7 +56,7 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
         <image:image>
-            <image:loc>https://thibault-santonja.github.io/congres-rempart-2026/assets/photos/2024-07-28_Coucy_1561_080834.webp</image:loc>
+            <image:loc>https://thibault-santonja.github.io/congres-rempart-2026/assets/photos/2024-07-28_remparts-coucy-coucher-soleil.webp</image:loc>
             <image:title>Album photo du Congrès REMPART 2026</image:title>
             <image:caption>Photographies © Thibault Santonja - thibaultsan.com</image:caption>
         </image:image>

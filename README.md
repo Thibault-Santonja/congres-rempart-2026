@@ -65,7 +65,7 @@ Le workflow `build-pdf.yml` régénère `planning.pdf` lorsque
 - Conception et photographies : **Thibault Santonja**
 - Organisation : **AMVCC** et bénévoles du congrès
 - Union nationale : [REMPART](https://www.rempart.com/fr)
-- Partenaires : APPEVA, ASPAM, Abbaye de Valsery, AROEVEN, Les Corbacs
+- Partenaires : APPEVA, ASPAM, Abbaye de Valsery, Aroéven, Les Corbacs
   du Nord (musique)
 
 ## Contact

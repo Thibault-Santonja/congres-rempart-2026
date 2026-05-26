@@ -1,0 +1,166 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AMVCC//Congres REMPART 2026//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Congrès REMPART 2026
+X-WR-CALDESC:60e Congrès annuel de l'Union REMPART à Coucy-le-Château-Auffrique
+X-WR-TIMEZONE:Europe/Paris
+
+BEGIN:VEVENT
+UID:congres-rempart-2026@amvcc.com
+DTSTAMP:20260524T000000Z
+DTSTART;TZID=Europe/Paris:20260523T110000
+DTEND;TZID=Europe/Paris:20260525T180500
+SUMMARY:Congrès REMPART 2026 (60e Anniversaire)
+DESCRIPTION:60e Congrès annuel de l'Union REMPART organisé par l'AMVCC à Co
+ ucy-le-Château-Auffrique\, du samedi 23 au lundi 25 mai 2026.\n\nProgramme :
+ https://thibault-santonja.github.io/congres-rempart-2026/timeline.html
+LOCATION:Coucy-le-Château-Auffrique\, 02380\, Aisne\, France
+URL:https://thibault-santonja.github.io/congres-rempart-2026/
+END:VEVENT
+
+BEGIN:VEVENT
+UID:congres-rempart-2026-sat-train@amvcc.com
+DTSTAMP:20260524T000000Z
+DTSTART;TZID=Europe/Paris:20260523T130000
+DTEND;TZID=Europe/Paris:20260523T143000
+SUMMARY:Visite du Petit Train de la Haute Somme (APPEVA)
+DESCRIPTION:Visite du site et tour en train avec les bénévoles de l'APPEVA.
+LOCATION:4 Chemin du P'tit train\, Hameau de Froissy\, 80340 La Neuville-lès-Bray
+URL:https://www.petittrainhautesomme.fr/
+END:VEVENT
+
+BEGIN:VEVENT
+UID:congres-rempart-2026-sat-conference@amvcc.com
+DTSTAMP:20260524T000000Z
+DTSTART;TZID=Europe/Paris:20260523T170000
+DTEND;TZID=Europe/Paris:20260523T190000
+SUMMARY:Conférence Pierre-Emmanuel Sautereau (patrimoine & numérique)
+DESCRIPTION:« La préservation et la valorisation du patrimoine à travers le
+ s outils et approches numériques »\, par Pierre-Emmanuel Sautereau.
+LOCATION:Domaine de Moyembrie\, Bâtiment S\, 02380 Coucy-le-Château-Auffrique
+END:VEVENT
+
+BEGIN:VEVENT
+UID:congres-rempart-2026-sat-protocole@amvcc.com
+DTSTAMP:20260524T000000Z
+DTSTART;TZID=Europe/Paris:20260523T190000
+DTEND;TZID=Europe/Paris:20260523T203000
+SUMMARY:Temps protocolaire - Médaille des Arts et des Lettres
+DESCRIPTION:Remise de la médaille des Arts et des Lettres à Marie-Georges P
+ agel Brousse et Olivier Lenoir\, suivie de l'apéritif.
+LOCATION:Domaine de Moyembrie\, 02380 Coucy-le-Château-Auffrique
+END:VEVENT
+
+BEGIN:VEVENT
+UID:congres-rempart-2026-sat-diner@amvcc.com
+DTSTAMP:20260524T000000Z
+DTSTART;TZID=Europe/Paris:20260523T203000
+DTEND;TZID=Europe/Paris:20260523T220000
+SUMMARY:Dîner et animation (samedi)
+DESCRIPTION:Dîner préparé par les bénévoles AMVCC (menu végétarien).
+LOCATION:Domaine de Moyembrie\, 02380 Coucy-le-Château-Auffrique
+END:VEVENT
+
+BEGIN:VEVENT
+UID:congres-rempart-2026-sun-ago@amvcc.com
+DTSTAMP:20260524T000000Z
+DTSTART;TZID=Europe/Paris:20260524T090000
+DTEND;TZID=Europe/Paris:20260524T130000
+SUMMARY:Assemblée générale ordinaire REMPART (matin)
+DESCRIPTION:Émargement à 9h\, ouverture à 10h. Rapports moral et financier
+ 2025\, accueil des nouvelles associations. Ordre du jour complet : https://
+ thibault-santonja.github.io/congres-rempart-2026/ag.html
+LOCATION:Domaine de Moyembrie\, Bâtiment S\, 02380 Coucy-le-Château-Auffrique
+URL:https://thibault-santonja.github.io/congres-rempart-2026/ag.html
+END:VEVENT
+
+BEGIN:VEVENT
+UID:congres-rempart-2026-sun-dejeuner@amvcc.com
+DTSTAMP:20260524T000000Z
+DTSTART;TZID=Europe/Paris:20260524T130000
+DTEND;TZID=Europe/Paris:20260524T143000
+SUMMARY:Déjeuner (La Marmite)
+DESCRIPTION:Buffet de salades variées\, viandes froides\, yaourt fermier\, b
+ iscuit. Préparé par La Marmite (PAT des Châteaux).
+LOCATION:Domaine de Moyembrie\, 02380 Coucy-le-Château-Auffrique
+END:VEVENT
+
+BEGIN:VEVENT
+UID:congres-rempart-2026-sun-ago-pm@amvcc.com
+DTSTAMP:20260524T000000Z
+DTSTART;TZID=Europe/Paris:20260524T143000
+DTEND;TZID=Europe/Paris:20260524T160000
+SUMMARY:AG REMPART (suite)
+DESCRIPTION:Orientations 2026\, budget prévisionnel\, élection du tiers sor
+ tant du Conseil d'administration\, questions diverses.
+LOCATION:Domaine de Moyembrie\, Bâtiment S\, 02380 Coucy-le-Château-Auffrique
+END:VEVENT
+
+BEGIN:VEVENT
+UID:congres-rempart-2026-sun-visite-coucy@amvcc.com
+DTSTAMP:20260524T000000Z
+DTSTART;TZID=Europe/Paris:20260524T163000
+DTEND;TZID=Europe/Paris:20260524T190000
+SUMMARY:Visite de Coucy et des chantiers AMVCC
+DESCRIPTION:Visite guidée du château de Coucy et des chantiers en cours par
+  les bénévoles de l'AMVCC.
+LOCATION:Place de l'Hôtel-Dieu\, 02380 Coucy-le-Château-Auffrique
+END:VEVENT
+
+BEGIN:VEVENT
+UID:congres-rempart-2026-sun-apero-bfc@amvcc.com
+DTSTAMP:20260524T000000Z
+DTSTART;TZID=Europe/Paris:20260524T190000
+DTEND;TZID=Europe/Paris:20260524T203000
+SUMMARY:Apéritif offert par la Fédération REMPART Bourgogne-Franche-Comté
+DESCRIPTION:Apéritif bourguignon (kir\, gougères\, jambon persillé) offert
+ par la région d'accueil du Congrès REMPART 2027.
+LOCATION:Coucy-le-Château-Auffrique
+END:VEVENT
+
+BEGIN:VEVENT
+UID:congres-rempart-2026-sun-diner@amvcc.com
+DTSTAMP:20260524T000000Z
+DTSTART;TZID=Europe/Paris:20260524T203000
+DTEND;TZID=Europe/Paris:20260524T230000
+SUMMARY:Dîner et animation (dimanche)
+DESCRIPTION:Couscous bœuf et agneau (option végétarienne)\, plateau de from
+ ages\, farandole de desserts. Animation par Les Corbacs du Nord.
+LOCATION:Aroéven\, 4 place de l'Hôtel-Dieu\, 02380 Coucy-le-Château-Auffrique
+END:VEVENT
+
+BEGIN:VEVENT
+UID:congres-rempart-2026-mon-berzy@amvcc.com
+DTSTAMP:20260524T000000Z
+DTSTART;TZID=Europe/Paris:20260525T090000
+DTEND;TZID=Europe/Paris:20260525T110000
+SUMMARY:Visite du château de Berzy-le-Sec (ASPAM)
+DESCRIPTION:Visite guidée par les bénévoles de l'ASPAM.
+LOCATION:1 place Roger Amboise\, 02200 Berzy-le-Sec
+URL:https://aspam-berzy.fr/
+END:VEVENT
+
+BEGIN:VEVENT
+UID:congres-rempart-2026-mon-valsery@amvcc.com
+DTSTAMP:20260524T000000Z
+DTSTART;TZID=Europe/Paris:20260525T113000
+DTEND;TZID=Europe/Paris:20260525T134500
+SUMMARY:Visite et déjeuner à l'abbaye Notre-Dame de Valsery
+DESCRIPTION:Visite suivie d'un déjeuner champêtre à l'abbaye.
+LOCATION:D17\, 02600 Coeuvres-et-Valsery
+END:VEVENT
+
+BEGIN:VEVENT
+UID:congres-rempart-2026-mon-cilf@amvcc.com
+DTSTAMP:20260524T000000Z
+DTSTART;TZID=Europe/Paris:20260525T140000
+DTEND;TZID=Europe/Paris:20260525T160000
+SUMMARY:Visite de la Cité internationale de la langue française
+DESCRIPTION:Visite du château de Villers-Cotterêts\, siège de la Cité inter
+ nationale de la langue française.
+LOCATION:1 place Aristide Briand\, 02600 Villers-Cotterêts
+END:VEVENT
+
+END:VCALENDAR
