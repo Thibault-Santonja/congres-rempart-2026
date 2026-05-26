@@ -93,7 +93,7 @@ a {
 
 @keyframes bgFade {
     /* Each photo: 5s slot within 150s total (30 photos).
-       Fade in 0–0.8s, hold 0.8–5s, fade out 5–5.8s (cross-fades with next slide). */
+       Fade in 0-0.8s, hold 0.8-5s, fade out 5-5.8s (cross-fades with next slide). */
     0% {
         opacity: 0;
     }
@@ -361,7 +361,7 @@ a {
     opacity: 0.8;
 }
 
-/* Album link — distinctive accent (gold/garance) */
+/* Album link - distinctive accent (gold/garance) */
 .asso-strip__album {
     color: var(--garance) !important;
 }

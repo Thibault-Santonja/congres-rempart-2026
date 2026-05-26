@@ -1,6 +1,6 @@
 # Fichiers source Adobe (lourds, non nécessaires au déploiement)
-*.ai
-*.psd
+# *.ai
+# *.psd
 *.indd
 *.sketch
 *.fig

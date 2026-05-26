@@ -1,51 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+>
     <url>
         <loc>https://thibault-santonja.github.io/congres-rempart-2026/</loc>
-        <lastmod>2026-05-22</lastmod>
+        <lastmod>2026-05-24</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://thibault-santonja.github.io/congres-rempart-2026/assets/photos/2024-07-28_Coucy_1561_080834.webp</image:loc>
+            <image:title>Le château de Coucy au lever du jour</image:title>
+            <image:caption>Congrès REMPART 2026, 60ᵉ Anniversaire à Coucy-le-Château-Auffrique</image:caption>
+        </image:image>
     </url>
     <url>
         <loc>https://thibault-santonja.github.io/congres-rempart-2026/timeline.html</loc>
-        <lastmod>2026-05-22</lastmod>
+        <lastmod>2026-05-24</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://thibault-santonja.github.io/congres-rempart-2026/menu.html</loc>
-        <lastmod>2026-05-22</lastmod>
+        <lastmod>2026-05-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://thibault-santonja.github.io/congres-rempart-2026/ag.html</loc>
-        <lastmod>2026-05-23</lastmod>
+        <lastmod>2026-05-24</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
+        <priority>0.8</priority>
     </url>
     <url>
         <loc>https://thibault-santonja.github.io/congres-rempart-2026/map.html</loc>
-        <lastmod>2026-05-22</lastmod>
+        <lastmod>2026-05-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://thibault-santonja.github.io/congres-rempart-2026/contact.html</loc>
-        <lastmod>2026-05-22</lastmod>
+        <lastmod>2026-05-24</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
         <loc>https://thibault-santonja.github.io/congres-rempart-2026/credits.html</loc>
-        <lastmod>2026-05-22</lastmod>
+        <lastmod>2026-05-24</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
+        <priority>0.6</priority>
     </url>
     <url>
         <loc>https://thibault-santonja.github.io/congres-rempart-2026/album.html</loc>
-        <lastmod>2026-05-22</lastmod>
+        <lastmod>2026-05-24</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://thibault-santonja.github.io/congres-rempart-2026/assets/photos/2024-07-28_Coucy_1561_080834.webp</image:loc>
+            <image:title>Album photo du Congrès REMPART 2026</image:title>
+            <image:caption>Photographies © Thibault Santonja - thibaultsan.com</image:caption>
+        </image:image>
     </url>
 </urlset>

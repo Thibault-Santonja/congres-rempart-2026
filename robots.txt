@@ -1,5 +1,44 @@
+# robots.txt - Congrès REMPART 2026 (AMVCC)
+# https://thibault-santonja.github.io/congres-rempart-2026/
+
+# Politique générale : tout le site est indexable
 User-agent: *
 Allow: /
 Disallow: /planning.html
+Disallow: /NOTICE-PHOTOS.md
+Disallow: /map-coucy.ai
+Disallow: /maps.psd
 
+# Crawlers des moteurs de réponse (autorisés)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Sitemap
 Sitemap: https://thibault-santonja.github.io/congres-rempart-2026/sitemap.xml

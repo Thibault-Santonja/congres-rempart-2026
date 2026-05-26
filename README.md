@@ -1,4 +1,4 @@
-# Congrès REMPART — 60ᵉ Anniversaire
+# Congrès REMPART, 60ᵉ Anniversaire
 
 Site officiel du **Congrès REMPART 60ᵉ Anniversaire**, organisé par
 l'**AMVCC** (Association de Mise en Valeur du Château de Coucy) du
@@ -14,7 +14,7 @@ Site statique HTML/CSS/JS vanille, déployé sur GitHub Pages.
 
 | Page | Contenu |
 |------|---------|
-| `index.html` | Accueil — carrousel photo + navigation |
+| `index.html` | Accueil : carrousel photo + navigation |
 | `timeline.html` | Planning détaillé (gantt desktop, vertical mobile) |
 | `menu.html` | Menus des trois repas du week-end |
 | `contact.html` | Trombinoscope des organisateurs + référente |
@@ -37,7 +37,7 @@ assets/
 
 ## Outils & technos
 
-- HTML/CSS/JS vanille — aucun framework
+- HTML/CSS/JS vanille : aucun framework
 - Polices : Fraunces (titres) + Lato (corps), Google Fonts
 - Palette « Seigneurie » : garance `#8b2a1a`, or `#b8892e`, parchemin
   `#faf5ee`, pierre, encre
@@ -55,7 +55,7 @@ Le workflow `build-pdf.yml` régénère `planning.pdf` lorsque
 ## Droits
 
 - **Photographies** : © Thibault Santonja
-  ([thibaultsan.com](https://thibaultsan.com)) — voir
+  ([thibaultsan.com](https://thibaultsan.com)), voir
   [`NOTICE-PHOTOS.md`](NOTICE-PHOTOS.md). Reproduction interdite sans
   autorisation écrite.
 - **Contenu rédactionnel & code** : © 2026 AMVCC.
@@ -70,5 +70,5 @@ Le workflow `build-pdf.yml` régénère `planning.pdf` lorsque
 
 ## Contact
 
-Référente du congrès : **Adeline Kadri** — `adeline.kadri@amvcc.com`
-— 03 23 52 69 41
+Référente du congrès : **Adeline Kadri**, `adeline.kadri@amvcc.com`
+- 03 23 52 69 41

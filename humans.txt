@@ -1,0 +1,30 @@
+/* TEAM */
+Hôte : Association de Mise en Valeur du Château de Coucy (AMVCC)
+Site : https://www.amvcc.com/
+Lieu : Coucy-le-Château-Auffrique, Aisne, Hauts-de-France
+
+Référente du congrès : Adeline Kadri
+Contact : adeline.kadri@amvcc.com - 03 23 52 69 41
+
+Photographies : Thibault Santonja
+Site : https://thibaultsan.com
+
+/* THANKS */
+Union REMPART - https://www.rempart.com/fr
+APPEVA (Petit Train de la Haute Somme) - https://www.petittrainhautesomme.fr/
+ASPAM (Berzy-le-Sec) - https://aspam-berzy.fr/
+Abbaye Notre-Dame de Valsery
+AROEVEN Hauts-de-France
+Ferme & Domaine de Moyembrie
+Les Corbacs du Nord
+Brasserie Voas
+Champagne Degenne Squélart & Fils
+Vignoble Saint Paul
+Frères Roye (Coteaux de l'Ardèche)
+PAT des Châteaux - https://picardiedeschateaux.fr/pat/
+
+/* SITE */
+Standards : HTML5, CSS3, JSON-LD (schema.org)
+Hébergement : GitHub Pages
+Langue : Français (fr-FR)
+Mise à jour : 24 mai 2026
