@@ -6,29 +6,25 @@ exclusive de :
 
 > **Thibault Santonja**, <https://thibaultsan.com>
 
-## Droits réservés
+## Licence
 
-© Thibault Santonja. Tous droits réservés.
+© Thibault Santonja. Ces photographies sont partagées sous licence
+**[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr)**
+(Creative Commons Attribution - Pas d'utilisation commerciale - Partage
+dans les mêmes conditions 4.0 International).
 
-Ces images sont mises en ligne dans le seul cadre du site officiel du
-**Congrès REMPART, 60ᵉ Anniversaire** organisé par l'AMVCC (mai 2026).
-Toute reproduction, diffusion, modification ou réutilisation, qu'elle
-soit commerciale ou non commerciale, est **interdite sans autorisation
-écrite et préalable de l'auteur**.
+Conditions :
 
-## Demandes d'usage
+- **Attribution** : le crédit suivant doit accompagner chaque image,
+  de manière lisible et à proximité directe de celle-ci :
+  > **photographe : Thibault Santonja** (<https://thibaultsan.com>)
+- **Usage non commercial** : aucune exploitation commerciale sans
+  autorisation écrite préalable de l'auteur.
+- **Partage à conditions identiques** : toute œuvre dérivée doit être
+  diffusée sous la même licence CC BY-NC-SA 4.0.
 
-Pour tout projet (presse, association partenaire, publication
-patrimoniale, etc.) souhaitant utiliser une de ces photographies, merci
-de contacter directement l'auteur via son site :
-<https://thibaultsan.com>.
-
-## Crédit obligatoire
-
-Si une autorisation est accordée, le crédit suivant doit accompagner
-chaque image, de manière lisible et à proximité directe de celle-ci :
-
-> **© Thibault Santonja, thibaultsan.com**
+Pour une demande d'usage commercial ou toute question, contacter
+l'auteur via : <https://thibaultsan.com>.
 
 ## Web crawling
 
