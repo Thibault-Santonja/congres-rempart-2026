@@ -15,15 +15,15 @@
 
 ## Pages du site
 
-- [Accueil](https://thibault-santonja.github.io/congres-rempart-2026/) : présentation générale, organisateurs, dates et lieux
-- [Planning du week-end](https://thibault-santonja.github.io/congres-rempart-2026/timeline.html) : déroulé minute par minute des trois jours
-- [Menus & repas](https://thibault-santonja.github.io/congres-rempart-2026/menu.html) : trois repas locaux préparés par les bénévoles AMVCC et La Marmite (PAT des Châteaux)
-- [Assemblée générale REMPART](https://thibault-santonja.github.io/congres-rempart-2026/ag.html) : ordre du jour officiel de l'AGO du 24 mai 2026
-- [Carte des lieux](https://thibault-santonja.github.io/congres-rempart-2026/map.html) : Coucy, Moyembrie, Berzy-le-Sec, Valsery, Villers-Cotterêts
-- [Partenaires & remerciements](https://thibault-santonja.github.io/congres-rempart-2026/credits.html) : associations, musiciens (Les Corbacs du Nord), photographe (Thibault Santonja), producteurs locaux
-- [Organisateurs & contacts](https://thibault-santonja.github.io/congres-rempart-2026/contact.html) : trombinoscope des 30 bénévoles ; référente Adeline Kadri (adeline.kadri@amvcc.com, 03 23 52 69 41)
-- [Album photo](https://thibault-santonja.github.io/congres-rempart-2026/album.html) : photographies de la vie associative à Coucy par Thibault Santonja (thibaultsan.com)
-- [Planning imprimable PDF](https://thibault-santonja.github.io/congres-rempart-2026/planning.pdf) : version A4 paysage du Gantt
+- [Accueil](https://congres-rempart-2026.thibaultsan.com/) : présentation générale, organisateurs, dates et lieux
+- [Planning du week-end](https://congres-rempart-2026.thibaultsan.com/timeline.html) : déroulé minute par minute des trois jours
+- [Menus & repas](https://congres-rempart-2026.thibaultsan.com/menu.html) : trois repas locaux préparés par les bénévoles AMVCC et La Marmite (PAT des Châteaux)
+- [Assemblée générale REMPART](https://congres-rempart-2026.thibaultsan.com/ag.html) : ordre du jour officiel de l'AGO du 24 mai 2026
+- [Carte des lieux](https://congres-rempart-2026.thibaultsan.com/map.html) : Coucy, Moyembrie, Berzy-le-Sec, Valsery, Villers-Cotterêts
+- [Partenaires & remerciements](https://congres-rempart-2026.thibaultsan.com/credits.html) : associations, musiciens (Les Corbacs du Nord), photographe (Thibault Santonja), producteurs locaux
+- [Organisateurs & contacts](https://congres-rempart-2026.thibaultsan.com/contact.html) : trombinoscope des 30 bénévoles ; référente Adeline Kadri (adeline.kadri@amvcc.com, 03 23 52 69 41)
+- [Album photo](https://congres-rempart-2026.thibaultsan.com/album.html) : photographies de la vie associative à Coucy par Thibault Santonja (thibaultsan.com)
+- [Planning imprimable PDF](https://congres-rempart-2026.thibaultsan.com/planning.pdf) : version A4 paysage du Gantt
 
 ## Temps forts du programme
 

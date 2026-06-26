@@ -15,9 +15,9 @@ DTEND;TZID=Europe/Paris:20260525T180500
 SUMMARY:Congrès REMPART 2026 (60e Anniversaire)
 DESCRIPTION:60e Congrès annuel de l'Union REMPART organisé par l'AMVCC à Co
  ucy-le-Château-Auffrique\, du samedi 23 au lundi 25 mai 2026.\n\nProgramme :
- https://thibault-santonja.github.io/congres-rempart-2026/timeline.html
+ https://congres-rempart-2026.thibaultsan.com/timeline.html
 LOCATION:Coucy-le-Château-Auffrique\, 02380\, Aisne\, France
-URL:https://thibault-santonja.github.io/congres-rempart-2026/
+URL:https://congres-rempart-2026.thibaultsan.com/
 END:VEVENT
 
 BEGIN:VEVENT
@@ -71,9 +71,9 @@ DTEND;TZID=Europe/Paris:20260524T130000
 SUMMARY:Assemblée générale ordinaire REMPART (matin)
 DESCRIPTION:Émargement à 9h\, ouverture à 10h. Rapports moral et financier
  2025\, accueil des nouvelles associations. Ordre du jour complet : https://
- thibault-santonja.github.io/congres-rempart-2026/ag.html
+ congres-rempart-2026.thibaultsan.com/ag.html
 LOCATION:Domaine de Moyembrie\, Bâtiment S\, 02380 Coucy-le-Château-Auffrique
-URL:https://thibault-santonja.github.io/congres-rempart-2026/ag.html
+URL:https://congres-rempart-2026.thibaultsan.com/ag.html
 END:VEVENT
 
 BEGIN:VEVENT

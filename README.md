@@ -4,7 +4,7 @@ Site officiel du **Congrès REMPART 60ᵉ Anniversaire**, organisé par
 l'**AMVCC** (Association de Mise en Valeur du Château de Coucy) du
 **23 au 25 mai 2026** à **Coucy-le-Château-Auffrique** (Aisne).
 
-🌐 **En ligne :** <https://thibault-santonja.github.io/congres-rempart-2026/>
+🌐 **En ligne :** <https://congres-rempart-2026.thibaultsan.com/>
 
 ---
 
